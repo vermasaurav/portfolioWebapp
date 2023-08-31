@@ -25,34 +25,37 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              title="University WebApp"
+              description="It is an University management WebApp that I have created with reactjs and with use of react mui. In this I developed a Admin panel and dashboard which can assist a features of Signup login and organize the academic stuff."
+              ghLink="https://github.com/collegeprojectmmdu/InforMMu_webapp"
               
             />
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-             
-            />
-          </Col>
+          <ProjectCard
+            imgPath={editor}
+            isBlog={false}
+            title="Notes App"
+            description="It's a Notes app that I have created with reeactjs. Note taking is one of those universal but intensely personal things. Everyone takes notes, whether it's as simple as writing down a grocery list or phone number or as systematic as typing up detailed book summaries or meeting minutes. "
+            ghLink="https://github.com/vermasaurav/NotesApp"
+                        
+          />
+        </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-                          
-            />
-          </Col>
+        <Col md={4} className="project-card">
+        <ProjectCard
+          imgPath={emotion}
+          isBlog={false}
+          title="Product landing page"
+          description="It is a landing page of starbucks from TATA company. I have uses HTML5,CSS3 and javascript and in future I will add something new to this website."
+          ghLink="https://github.com/vermasaurav/Starbucks_landingPage"
+          
+        />
+      </Col>
+
+         
+         
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -60,7 +63,7 @@ function Projects() {
               isBlog={false}
               title="Github Tracker"
               description="Uses the github API and build an interface that a track your github account repository list name lastly you created, number of following and follow. It is helpful for instant check your github account. "
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              ghLink="https://github.com/vermasaurav/githubprofiletracker"
               
             />
           </Col>
@@ -71,22 +74,25 @@ function Projects() {
               isBlog={false}
               title="Porfolio"
               description="Here I created my own portfolio that describe my academic detail, skills that I have got from acedemic journey, Projects that I created and add the Resume. I uses Reacts js and some of its libraries in this project."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/vermasaurav/portfolioWebapp"
               
             />
           </Col>
 
+          
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              
-            />
-          </Col>
+          <ProjectCard
+            imgPath={bitsOfCode}
+            isBlog={false}
+            title="Latest project"
+            description="Work in Progress."
+            ghLink=""
+           
+          />
+        </Col>
+
+
+      
         </Row>
       </Container>
     </Container>
